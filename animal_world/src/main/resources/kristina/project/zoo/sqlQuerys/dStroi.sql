@@ -1,0 +1,1 @@
+delete from СТРОИТЕЛИ where (id_работника = ?)

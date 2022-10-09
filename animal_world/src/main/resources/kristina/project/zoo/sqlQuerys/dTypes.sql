@@ -1,0 +1,1 @@
+delete from  ТИПЫ where( тип_корма = ?)

@@ -1,0 +1,1 @@
+delete from РАБОТА where (id_работы = ?)

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="600.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/15"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kristina.project.zoo.controllers.Without">
+    <Line endY="328.0" layoutX="300.0" layoutY="172.0" startY="-172.0" strokeWidth="4.0" />
+    <ListView fx:id="listTables" onMouseClicked="#FillCombo" prefHeight="500.0" prefWidth="300.0" />
+    <TableView fx:id="Table"  layoutX="302.0"  prefHeight="500.0" prefWidth="498.0">
+    </TableView>
+    <Button fx:id="backButton" layoutX="550.0" layoutY="504.0"  prefHeight="100.0" prefWidth="240.0"  text="Назад" textAlignment="CENTER">
+        <font>
+            <Font name="Courier New" size="20.0" />
+        </font>
+    </Button>
+    <ComboBox fx:id="combo" layoutY="530" prefHeight="40" prefWidth="200" >
+
+    </ComboBox>
+    <Button fx:id="outin" layoutX="210" layoutY="530" prefWidth="80" prefHeight="40" text="Выбрать">
+
+    </Button>
+    <TextField fx:id="first"  layoutY="500" layoutX="300" text = "---">
+
+    </TextField>
+    <TextField fx:id="second" layoutY="530" layoutX="300" text = "---">
+    </TextField>
+    <DatePicker fx:id="third" layoutY="560" layoutX="300" prefWidth="85">
+
+    </DatePicker>
+    <DatePicker fx:id="four" layoutY="560" layoutX="390" prefWidth="85">
+
+    </DatePicker>
+
+    <Button fx:id="findButton" layoutX="490" layoutY="530" prefWidth="40" prefHeight="40" text="" style="-fx-background-color:#e982a0;">
+
+    </Button>
+
+</AnchorPane>

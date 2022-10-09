@@ -1,0 +1,1 @@
+delete from Лечение where (id_животного = ?)AND(болезнь = ?)

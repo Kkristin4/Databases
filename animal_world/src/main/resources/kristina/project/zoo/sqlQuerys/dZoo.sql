@@ -1,0 +1,1 @@
+delete from  ЗООПАРКИ where( название = ?)

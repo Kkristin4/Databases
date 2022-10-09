@@ -1,0 +1,1 @@
+delete from ДОСТУП where (индекс in (select индекс from ДОСТУП where (id_работника = ?)AND(id_животного = ?)))

@@ -1,0 +1,1 @@
+delete from Рацион where (id_животного = ?)AND(название = ?)

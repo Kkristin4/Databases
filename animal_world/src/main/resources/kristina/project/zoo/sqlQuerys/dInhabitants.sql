@@ -1,0 +1,1 @@
+delete from ОБИТАТЕЛИ where (id_животного = ?)

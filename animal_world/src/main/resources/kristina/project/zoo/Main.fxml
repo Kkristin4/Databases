@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/15"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="kristina.project.zoo.controllers.MainController">
+   <ImageView >
+      <Image url="@images/backmenu.jpg" ></Image>
+   </ImageView>
+   <Text fill="WHITE" layoutX="200.0" layoutY="40.0"
+         text="Добро пожаловать!">
+      <font>
+         <Font name="Courier New" size="40.0"/>
+      </font>
+   </Text>
+
+
+
+      <Button fx:id="AdminButton" layoutX="250.0" layoutY="500.0"  prefHeight="100.0"
+              prefWidth="350.0" style="-fx-background-radius: 100"
+              text="ВХОД" textAlignment="CENTER">
+         <font>
+            <Font name="Courier New" size="30.0"/>
+         </font>
+      </Button>
+</AnchorPane>

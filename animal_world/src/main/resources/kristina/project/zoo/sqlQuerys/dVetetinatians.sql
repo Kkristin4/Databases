@@ -1,0 +1,1 @@
+delete from ВЕТЕРИНАРЫ WHERE (id_работника = ?)

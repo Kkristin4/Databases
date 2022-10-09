@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/15" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kristina.project.zoo.controllers.Other">
+    <ImageView fx:id="customerImag" >
+        <Image url="@images/backother.jpg"></Image>
+    </ImageView>
+    <Text fill="WHITE" layoutX="274.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+        <font>
+            <Font name="Courier New" size="40.0" />
+        </font>
+    </Text>
+    <Button fx:id="add_cleaner" layoutX="14.0" layoutY="14.0" prefHeight="50" prefWidth="100" text="Добавить уборщика">
+
+    </Button>
+    <TextField fx:id  = "first" layoutX="14.0" layoutY="100.0">
+
+    </TextField>
+    <TextField fx:id = "second" layoutX="14.0" layoutY="150.0">
+
+    </TextField>
+    <TextField fx:id = "third" layoutX="14.0" layoutY="200.0">
+
+    </TextField>
+    <TextField fx:id = "fourth" layoutX="14.0" layoutY="250.0">
+
+    </TextField>
+    <TextField fx:id = "fifth" layoutX="14.0" layoutY="300.0">
+
+    </TextField>
+    <TextField fx:id = "sixth" layoutX="14.0" layoutY="344.0">
+
+    </TextField>
+    <TextField fx:id = "seventh" layoutX="14.0" layoutY="400.0">
+
+    </TextField>
+
+    <Button fx:id="backButton" layoutX="14.0" layoutY="500.0" prefHeight="100.0" prefWidth="240.0"  text="Назад" textAlignment="CENTER" >
+        <font>
+            <Font name="Courier New" size="20.0" />
+        </font>
+    </Button>
+</AnchorPane>

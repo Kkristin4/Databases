@@ -1,0 +1,1 @@
+delete from БОЛЕЗНИ where(болезнь = ?)

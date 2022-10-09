@@ -1,0 +1,1 @@
+delete from ПРИВИВКИ where( прививка = ?)
